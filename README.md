@@ -1,16 +1,6 @@
-
-## About this project
-
-This project is the interface for the website: https://english.ovh, a website where you can improve your english with the help of AI.
-
-You also have the API with the fine-tunning on github: https://github.com/LuisPerisVidal/englishAI-backend-api-typescript-clean-architecture
-
-Additionally, if you speak spanish you can view the entire project on youtube: https://www.youtube.com/channel/UCowYQn61yq21aFmrrKRT4JQ
-
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-This is a [Next.js](https://nextjs.org/) project.
 
 First, run the development server:
 
@@ -26,13 +16,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Configuration
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-For this project I deployed the frontend on CloudFlare Pages. Due to CloudFlare supporting only an 'edge runtime' I couldn't use nodeJS. Therefore, I modified the main layout adding the following line:
+## Learn More
 
-```javascript
-export const runtime = 'edge';
-```
+To learn more about Next.js, take a look at the following resources:
 
-You can remove this line if you want to use Node.js.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

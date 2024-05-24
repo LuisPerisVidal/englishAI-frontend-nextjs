@@ -1,5 +1,4 @@
 "use client"
-  
 import { useEffect, useState } from 'react';
 import TenseOptions from './tenseOptions';
 import API from '@/config/API';
@@ -42,7 +41,7 @@ export default function InputData() {
 
 	const createLessonInServer = async () => {
 
-		setCreateLesson({...createLesson, stage:"error"});
+		//setCreateLesson({...createLesson, stage:"error"});
 
 		setCreateLesson({...createLesson, stage:"loading"});
 

@@ -13,7 +13,10 @@ export default function InputData() {
 
 			<ul className="flex space-x-4 justify-center">
 				<li>
-					<Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
+					<Link href="/" className="text-gray-600 hover:text-gray-900">Tenses</Link>
+				</li>
+				<li>
+					<Link href="/modal-verbs" className="text-gray-600 hover:text-gray-900">Modal Verbs</Link>
 				</li>
 				<li>
 					<Link href="/popular-lessons" className="text-gray-600 hover:text-gray-900">Popular lessons</Link>

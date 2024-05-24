@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Sentence({ sentence, solution, verb }: { sentence: string, solution: string, verb: string }) {
+export default function Sentence({ sentence, solution }: { sentence: string, solution: string }) {
 
 	const [value, setValue] = useState({value:"", color:""});
 	const [showTense, setShowTense] = useState(false);
@@ -30,8 +30,8 @@ export default function Sentence({ sentence, solution, verb }: { sentence: strin
 					onChange={validateInput} />
 				{sentence_split[1]}
 			</div>
-			{showTense && <div className="text-gray-600">{verb}</div>}
-			{!showTense && <button onClick={() => setShowTense(true)} className="text-gray-600">Show tense</button>}
+			{showTense && <div className="text-gray-600">{solution}</div>}
+			{!showTense && <button onClick={() => setShowTense(true)} className="text-gray-600">Show solution</button>}
 
 		</div>
 	);
